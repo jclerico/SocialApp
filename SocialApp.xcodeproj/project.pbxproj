@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002EF4671F21213900E6E4E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 002EF4661F21213900E6E4E9 /* GoogleService-Info.plist */; };
 		005A50D81F1F9FFC006631E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50D71F1F9FFC006631E0 /* AppDelegate.swift */; };
 		005A50DA1F1F9FFC006631E0 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50D91F1F9FFC006631E0 /* SignInVC.swift */; };
 		005A50DD1F1F9FFC006631E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005A50DB1F1F9FFC006631E0 /* Main.storyboard */; };
 		005A50DF1F1F9FFC006631E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005A50DE1F1F9FFC006631E0 /* Assets.xcassets */; };
 		005A50E21F1F9FFC006631E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005A50E01F1F9FFC006631E0 /* LaunchScreen.storyboard */; };
-		005A50EA1F1FA034006631E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 005A50E91F1FA034006631E0 /* GoogleService-Info.plist */; };
 		005A50EF1F1FBBFA006631E0 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50EE1F1FBBFA006631E0 /* FancyView.swift */; };
 		005A50F21F1FBD00006631E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50F11F1FBD00006631E0 /* Constants.swift */; };
 		005A50F41F1FBFDB006631E0 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50F31F1FBFDB006631E0 /* RoundBtn.swift */; };
@@ -22,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002EF4661F21213900E6E4E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		005A50D41F1F9FFC006631E0 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005A50D71F1F9FFC006631E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		005A50D91F1F9FFC006631E0 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		005A50DE1F1F9FFC006631E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005A50E11F1F9FFC006631E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		005A50E31F1F9FFC006631E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		005A50E91F1FA034006631E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		005A50EE1F1FBBFA006631E0 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		005A50F11F1FBD00006631E0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		005A50F31F1FBFDB006631E0 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				005A50DE1F1F9FFC006631E0 /* Assets.xcassets */,
 				005A50E01F1F9FFC006631E0 /* LaunchScreen.storyboard */,
 				005A50E31F1F9FFC006631E0 /* Info.plist */,
-				005A50E91F1FA034006631E0 /* GoogleService-Info.plist */,
+				002EF4661F21213900E6E4E9 /* GoogleService-Info.plist */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				005A50E21F1F9FFC006631E0 /* LaunchScreen.storyboard in Resources */,
-				005A50EA1F1FA034006631E0 /* GoogleService-Info.plist in Resources */,
+				002EF4671F21213900E6E4E9 /* GoogleService-Info.plist in Resources */,
 				005A50DF1F1F9FFC006631E0 /* Assets.xcassets in Resources */,
 				005A50DD1F1F9FFC006631E0 /* Main.storyboard in Resources */,
 			);
