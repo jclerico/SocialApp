@@ -12,12 +12,12 @@
 		005A50DD1F1F9FFC006631E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005A50DB1F1F9FFC006631E0 /* Main.storyboard */; };
 		005A50DF1F1F9FFC006631E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005A50DE1F1F9FFC006631E0 /* Assets.xcassets */; };
 		005A50E21F1F9FFC006631E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005A50E01F1F9FFC006631E0 /* LaunchScreen.storyboard */; };
-		005A50EA1F1FA034006631E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 005A50E91F1FA034006631E0 /* GoogleService-Info.plist */; };
 		005A50EF1F1FBBFA006631E0 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50EE1F1FBBFA006631E0 /* FancyView.swift */; };
 		005A50F21F1FBD00006631E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50F11F1FBD00006631E0 /* Constants.swift */; };
 		005A50F41F1FBFDB006631E0 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50F31F1FBFDB006631E0 /* RoundBtn.swift */; };
 		005A50F61F1FC369006631E0 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50F51F1FC369006631E0 /* FancyField.swift */; };
 		005A50F81F1FCA01006631E0 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A50F71F1FCA01006631E0 /* FancyBtn.swift */; };
+		00E228B41F210E44006E1D7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00E228B31F210E44006E1D7A /* GoogleService-Info.plist */; };
 		332C178E73E0F8EEE266EF95 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FF8D16396E1973E9FB9101 /* Pods_SocialApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,12 +29,12 @@
 		005A50DE1F1F9FFC006631E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005A50E11F1F9FFC006631E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		005A50E31F1F9FFC006631E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		005A50E91F1FA034006631E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		005A50EE1F1FBBFA006631E0 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		005A50F11F1FBD00006631E0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		005A50F31F1FBFDB006631E0 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		005A50F51F1FC369006631E0 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		005A50F71F1FCA01006631E0 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		00E228B31F210E44006E1D7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		22FF8D16396E1973E9FB9101 /* Pods_SocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF9298813EC9DC681D486D3 /* Pods-SocialApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.release.xcconfig"; sourceTree = "<group>"; };
 		C21BC3C3D45401B71181A7BE /* Pods-SocialApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp/Pods-SocialApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				005A50DE1F1F9FFC006631E0 /* Assets.xcassets */,
 				005A50E01F1F9FFC006631E0 /* LaunchScreen.storyboard */,
 				005A50E31F1F9FFC006631E0 /* Info.plist */,
-				005A50E91F1FA034006631E0 /* GoogleService-Info.plist */,
+				00E228B31F210E44006E1D7A /* GoogleService-Info.plist */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				005A50E21F1F9FFC006631E0 /* LaunchScreen.storyboard in Resources */,
-				005A50EA1F1FA034006631E0 /* GoogleService-Info.plist in Resources */,
+				00E228B41F210E44006E1D7A /* GoogleService-Info.plist in Resources */,
 				005A50DF1F1F9FFC006631E0 /* Assets.xcassets in Resources */,
 				005A50DD1F1F9FFC006631E0 /* Main.storyboard in Resources */,
 			);
