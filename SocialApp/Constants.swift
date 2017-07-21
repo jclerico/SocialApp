@@ -10,3 +10,6 @@ import UIKit
 
 //These are GLOBAL Constants! Can be accessed anywhere in project.
 let SHADOW_GRAY: CGFloat = 120.0 / 255.0
+
+//UID For Auto Sign In
+let KEY_UID = "uid"
