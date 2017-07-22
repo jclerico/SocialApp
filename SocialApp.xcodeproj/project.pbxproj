@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00243D481F236E78002F35A1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00243D471F236E78002F35A1 /* DataService.swift */; };
+		00243D4A1F23D63D002F35A1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00243D491F23D63D002F35A1 /* Post.swift */; };
 		002EF4881F220EE800E6E4E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 002EF4871F220EE800E6E4E9 /* GoogleService-Info.plist */; };
 		002EF48A1F22736200E6E4E9 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002EF4891F22736200E6E4E9 /* FeedVC.swift */; };
 		002EF48C1F22A6CC00E6E4E9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002EF48B1F22A6CC00E6E4E9 /* CircleView.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		00243D471F236E78002F35A1 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		00243D491F23D63D002F35A1 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		002EF4871F220EE800E6E4E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		002EF4891F22736200E6E4E9 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		002EF48B1F22A6CC00E6E4E9 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		005A50ED1F1FA29D006631E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				00243D491F23D63D002F35A1 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				002EF48C1F22A6CC00E6E4E9 /* CircleView.swift in Sources */,
 				005A50F61F1FC369006631E0 /* FancyField.swift in Sources */,
 				005A50DA1F1F9FFC006631E0 /* SignInVC.swift in Sources */,
+				00243D4A1F23D63D002F35A1 /* Post.swift in Sources */,
 				005A50F41F1FBFDB006631E0 /* RoundBtn.swift in Sources */,
 				005A50D81F1F9FFC006631E0 /* AppDelegate.swift in Sources */,
 				00243D481F236E78002F35A1 /* DataService.swift in Sources */,
